@@ -140,6 +140,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.display.enable_default_color_mode=0 \
     sdm.debug.disable_skip_validate=1 \
     persist.hwc.enable_vds=1 \
+    debug.sdm.support_writeback=0 \
     ro.vendor.display.cabl=0 \
 
 # DRM
