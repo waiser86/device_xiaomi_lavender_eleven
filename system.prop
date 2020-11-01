@@ -1,2 +1,5 @@
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
+
+# Blurs
+ro.surface_flinger.supports_background_blur=1
