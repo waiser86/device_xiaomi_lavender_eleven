@@ -266,3 +266,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 #disable dual isp sync by default
 PRODUCT_PROPERTY_OVERRIDES += \
 	persist.vendor.camera.dual.isp.sync=0
+
+# Hack for Youtube
+PRODUCT_PROPERTY_OVERRIDES += \
+    sys.display-size=3840x2160
+
+# Hack for priv-apps
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.control_privapp_permissions=log
