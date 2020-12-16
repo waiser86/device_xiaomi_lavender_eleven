@@ -20,6 +20,10 @@ DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
     $(LOCAL_PATH)/overlay-pe
 
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay \
+    NotchBarKiller
+
 # RRO configuration
 PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
