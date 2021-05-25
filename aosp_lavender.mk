@@ -17,6 +17,8 @@ TARGET_GAPPS_ARCH := arm64
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+$(call inherit-product, vendor/xiaomi/miuicamera/config.mk)
+
 # ROMODEL OTA
 CUSTOM_BUILD_TYPE := OFFICIAL
 
