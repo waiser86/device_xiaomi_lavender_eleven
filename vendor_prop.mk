@@ -40,7 +40,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.audio.hifi.int_codec=true \
     persist.vendor.audio.hw.binder.size_kbyte=1024 \
     ro.af.client_heap_size_kbyte=7168 \
-	vendor.fm.a2dp.conc.disabled=true
+    vendor.fm.a2dp.conc.disabled=true
 
 # Audio dynamic feature flags
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -132,7 +132,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.sf.latch_unsignaled=0 \
+    debug.sf.latch_unsignaled=1 \
     ro.opengles.version=196610 \
     ro.vendor.display.sensortype=2 \
     vendor.gralloc.enable_fb_ubwc=1 \
@@ -230,7 +230,7 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.max_virtual_display_dimension=4096
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    debug.sf.disable_backpressure=1 
+    debug.sf.disable_backpressure=1
 
 # System restart
     PRODUCT_PROPERTY_OVERRIDES += \
@@ -266,7 +266,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 #disable dual isp sync by default
 PRODUCT_PROPERTY_OVERRIDES += \
-	persist.vendor.camera.dual.isp.sync=0
+    persist.vendor.camera.dual.isp.sync=0
 
 # Hack for Youtube
 PRODUCT_PROPERTY_OVERRIDES += \
